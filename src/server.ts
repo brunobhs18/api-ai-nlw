@@ -5,8 +5,6 @@ import { uploadVideoRoute } from './routes/upload-video'
 import { createTranscriptionRoute } from './routes/create-transcription'
 import { generateAICompletionRoute } from './routes/generate-ai-completion'
 
-const port = process.env.PORT || 3333
-
 const app = fastify()
 
 app.register(fastifyCors, {
