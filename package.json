@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node src/server.ts",
     "dev": "tsx watch src/server.ts",
-    "vercel-build": "npx prisma migrate deploy"
+    "vercel-build": "npx prisma migrate dev"
   },
   "author": "",
   "license": "ISC",
