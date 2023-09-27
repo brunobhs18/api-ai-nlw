@@ -1,10 +1,10 @@
 # @name get-prompts
-GET http://localhost:3333/prompts
+GET https://api-ai-nlw.vercel.app/prompts
 
 ### 
 
 # @name upload
-POST http://localhost:3333/videos
+POST https://api-ai-nlw.vercel.app/videos
 Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
 
 ------WebKitFormBoundary7MA4YWxkTrZu0gW
