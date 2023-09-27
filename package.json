@@ -7,9 +7,9 @@
     "node": "18.x"
   },
   "scripts": {
-    "start": "node src/server.ts",
+    "start": "nodemon src/server.ts",
     "dev": "tsx watch src/server.ts",
-    "vercel-build": "npx prisma migrate dev"
+    "vercel-build": "npx prisma migrate deploy"
   },
   "author": "",
   "license": "ISC",
