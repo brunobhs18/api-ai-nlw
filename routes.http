@@ -17,7 +17,7 @@ Content-Type: audio/mpeg
 ### 
 
 # @name create-transcription
-POST http://localhost:3333/videos/c11bea86-9f12-40d3-8653-0d8d98e22902/transcription
+POST https://api-ai-nlw.vercel.app/videos/c11bea86-9f12-40d3-8653-0d8d98e22902/transcription
 Content-Type: application/json
 
 {
@@ -27,7 +27,7 @@ Content-Type: application/json
 ### 
 
 # @name generate-ai-completion
-POST http://localhost:3333/ai/complete
+POST https://api-ai-nlw.vercel.app/ai/complete
 Content-Type: application/json
 
 {
